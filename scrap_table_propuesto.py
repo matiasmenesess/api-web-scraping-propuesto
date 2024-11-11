@@ -23,7 +23,7 @@ def lambda_handler(event, context):
     
     array.sort(key=lambda x: x[0], reverse=True)
     
-    for iterator in range(100):
+    for iterator in range(50):
         arr.append(array[iterator])
     
     dynamodb = boto3.resource('dynamodb')
