@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "a4f35f5f-2b2f-4b3e-904b-64ed30cbb9d1",
+		"name": "CC S12 S3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34150216"
+	},
+	"item": [
+		{
+			"name": "Scraping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://az8pgtlq8l.execute-api.us-east-1.amazonaws.com/dev/scrape_propuesto/table",
+					"protocol": "https",
+					"host": [
+						"az8pgtlq8l",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"scrape_propuesto",
+						"table"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
