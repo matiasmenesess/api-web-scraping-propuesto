@@ -1,5 +1,5 @@
 org: matiasmeneses
-service: api-web-scraping_propuesto
+service: api-web-scraping-propuesto
 
 provider:
   name: aws
